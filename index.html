@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="./javascript.js" defer></script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo">
+      <h1>Ask Zeus The Weather</h1>
+      <img id="zeusLogo" src="./—Pngtree—zeus clip art_5832418.png" alt="Weather App Logo">
+    </div>
+
+    <div class="form">
+      <form>
+        <label id="label" for="location">Pick a location to check the weather of:</label>
+        <input id="location" type="text" placeholder="enter a location">
+        <button id="locationButton" onclick="changeLocation(); getWeather(); return false">Ask Zeus</button>
+      </form>
+    </div>
+
+
+
+  </div>
+
+  <div class="weatherDisplay">
+    <p id="currentLocation"></p>
+    <img id="test" src="http://openweathermap.org/img/w/10d.png" alt="">
+    <div id="tempRow">
+      <p id="convert1">temperature (C°):</p><pre> </pre><p id="temp"></p>
+    </div>
+    <div id="statusRow">
+      <p>weather:</p><pre> </pre><p id="status"></p>
+    </div>
+    <div id="perceivedTempRow">
+      <p id="convert2">perceived temperature (C°):</p><pre> </pre><p id="perceivedTemp"></p>
+    </div>
+    <div id="humidityRow">
+      <p>humidity (%):</p><pre> </pre><p id="humidity"></p>
+    </div>
+    <button id="convertButton" onclick="convertTemperature()">convert to fahrenheit</button>
+  </div>
+</body>
+</html>

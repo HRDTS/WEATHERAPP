@@ -1,0 +1,89 @@
+
+
+body {
+    background-color: rgba(142, 165, 168, 0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+#zeusLogo {
+    height: 300px;
+    width: auto;
+    background-color: rgb(129, 124, 48);
+    border-radius: 50%;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#locationButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    background-color: rgb(129, 124, 48);
+    border: 20px solid rgb(129, 124, 48);
+    border-radius: 20%;
+}
+
+
+#location {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    outline:  none;
+    border: none;
+    width: 50%;
+}
+
+#label {
+    font-weight: bold;
+}
+
+.weatherDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 124, 48);
+    border: solid rgb(194, 178, 31);
+    min-width: 220px;
+    width: 30%;
+    padding: 0px 10px;
+}
+
+#convertButton {
+    margin-bottom: 16px;
+}
+
+#tempRow, #statusRow, #perceivedTempRow, #humidityRow{
+    display: flex;
+}
+
+#currentLocation{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#test{
+    height: 80px;
+    width: auto;
+    margin: 0px;
+}
